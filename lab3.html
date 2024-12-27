@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET و POST</title>
+    <link rel="stylesheet" href="lab3.css">
+    <body>
+        <h1>مثال على استخدام GET و POST في PHP</h1>
+        
+        <!-- نموذج GET -->
+        <h2>نموذج باستخدام GET</h2>
+        <form method="GET" action="process.php">
+            <label for="nameGet">Name (GET):</label>
+            <input type="text" id="nameGet" name="name">
+            <input type="submit" value="Submit GET">
+        </form>
+        
+        <!-- نموذج POST -->
+        <h2>نموذج باستخدام POST</h2>
+        <form method="POST" action="process.php">
+            <label for="namePost">Name (POST):</label>
+            <input type="text" id="namePost" name="name">
+            <input type="submit" value="Submit POST">
+        </form>
+    
+    </body>
+    </html>
+    
